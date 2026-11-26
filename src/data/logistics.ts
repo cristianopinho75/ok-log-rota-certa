@@ -118,7 +118,7 @@ export const FLEET_VEHICLES: FleetVehicle[] = [
 ];
 
 export const FLEET_METRICS = [
-  { value: "180+", label: "Veículos monitorados 24h" },
+  { value: "24h", label: "Veículos monitorados" },
   { value: "99,4%", label: "Índice de pontualidade" },
   { value: "27 estados", label: "Cobertura rodoviária nacional" },
 ];
