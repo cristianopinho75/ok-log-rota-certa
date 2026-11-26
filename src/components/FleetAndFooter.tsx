@@ -1,5 +1,5 @@
 import { useState, type FormEvent } from "react";
-import { CheckCircle2, Mail, MapPin, Phone, Quote, Truck } from "lucide-react";
+import { CheckCircle2, Mail, Quote, Truck } from "lucide-react";
 import logoAsset from "@/assets/oklog-logo.png.asset.json";
 import {
   CORPORATE_EMAIL,
@@ -191,14 +191,6 @@ export function FleetAndFooter() {
               urbana com pontualidade e rastreamento.
             </p>
             <ul className="mt-5 space-y-2.5 text-sm text-navy-muted">
-              <li className="flex items-center gap-2.5">
-                <MapPin className="h-4 w-4 shrink-0 text-cta" />
-                <span>Av. das Nações Unidas, 12901 • São Paulo, SP</span>
-              </li>
-              <li className="flex items-center gap-2.5">
-                <Phone className="h-4 w-4 shrink-0 text-cta" />
-                <span>(11) 4004-8210</span>
-              </li>
               <li className="flex items-center gap-2.5">
                 <Mail className="h-4 w-4 shrink-0 text-cta" />
                 <a href={`mailto:${CORPORATE_EMAIL}`} className="hover:text-navy-foreground hover:underline">
